@@ -1,0 +1,42 @@
+.main-screen {
+  .top-img {
+    width: 100%;
+    .swiper {
+      width: 100%;
+      .swiper-slide {
+        position: relative;
+        position: block;
+        width: 100%;
+        // height: 50%;
+        background-color: aqua;
+        img {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+        &::after{
+          content: "";
+          padding-bottom: 45%;
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .main-screen {
+    .top-img {
+      .swiper{
+        .swiper-slide{
+          &::after {
+            padding-bottom: 95%;
+          }
+        }
+      }
+    }
+  }
+  
+}
