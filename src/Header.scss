@@ -98,7 +98,6 @@ header {
 
         top: 0;
         left: 0;
-        background-color: #000;
         opacity: .9;
         width: 100%;
         height: 0;
@@ -115,7 +114,9 @@ header {
           }
 
           .menu {
+            position: absolute;
             padding-top: 80px;
+            top: 0;
             width: 100%;
             height: 100vh;
             background-color: #000;
