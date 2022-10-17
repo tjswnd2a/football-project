@@ -16,6 +16,7 @@ export default function Header() {
       setItemList(props => props = props.replace(' show', ''));
     }
   };
+  console.log(onClick);
   return (
     <>
       <header>
