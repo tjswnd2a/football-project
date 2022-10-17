@@ -1,0 +1,11 @@
+.btn-common {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  transition: all .5s;
+  cursor: pointer;
+  &:hover{
+    background-color: #fff;
+    color: rgb(123, 119, 119);
+  }
+}

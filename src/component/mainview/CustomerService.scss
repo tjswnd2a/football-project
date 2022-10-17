@@ -1,0 +1,34 @@
+.customer-service {
+  width: 100%;
+  margin-top: 10%;
+  background-image: url("../../../public/images/book-your-table-wall.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding-bottom: 10%;
+  .inner{
+    display: flex;
+    .service {
+      width: 100%;
+      text-align: center;
+      .title {
+        padding-top: 20%;
+        font-size: 2rem;
+        height: 20%;
+        .contact {
+          padding-top: 3%;
+        }
+      }
+      .content {
+        line-height: 1.5rem;
+        padding-top: 8%;
+      }
+
+      button {
+        margin-top: 7%;
+        padding: 10px 20px;
+      }
+    }
+  }
+}
