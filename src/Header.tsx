@@ -1,10 +1,14 @@
 import './Header.scss';
-import { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { getDatabase } from './function/dbload';
 
 export default function Header() {
   const [menuBtn, setMenuBtn] = useState<string>("hambergur-menu");
   const [itemList, setItemList] = useState<string>("menu-item");
   const False: number = -1;
+
+  const [clickItem,setClickItem] = useState<string>("");
+  const [itemArray, setItemArray] = useState<Array<Object>>([]);
   const onClick = () => {
 
     if (menuBtn.indexOf(' show') === False &&
@@ -16,7 +20,16 @@ export default function Header() {
       setItemList(props => props = props.replace(' show', ''));
     }
   };
-  console.log(onClick);
+
+  const getName = (e: any) => {
+    console.log(e.target.innerHTML);
+    setClickItem(e.target.innerHTML);
+  }
+  useEffect(()=> {
+    setItemArray(getDatabase(clickItem));
+  },[clickItem]);
+  useEffect(()=> {
+  },[itemArray])
   return (
     <>
       <header>
@@ -46,25 +59,19 @@ export default function Header() {
                 <a href="#" className="title-menu">MENU ▾</a>
                 <ul className="sub-menu">
                   <li className="sub-item">
-                    <a href="#">New-Menu</a>
+                    <a href="#" onClick={getName}>Appetizer</a>
                   </li>
                   <li className="sub-item">
-                    <a href="#">Apppetizer</a>
+                    <a href="#" onClick={getName}>Pizza</a>
                   </li>
                   <li className="sub-item">
-                    <a href="#">Pizza</a>
-                  </li>
-                  <li className="sub-item">
-                    <a href="#">Rice</a>
+                    <a href="#" onClick={getName}>Rice</a>
                   </li>
                   <li className="sub-item">
                     <a href="#">Kids</a>
                   </li>
                   <li className="sub-item">
                     <a href="#">Special</a>
-                  </li>
-                  <li className="sub-item">
-                    <a href="#">Beverage</a>
                   </li>
                 </ul>
               </li>

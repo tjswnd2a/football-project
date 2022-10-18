@@ -1,0 +1,102 @@
+{
+  "tpye": "success",
+  "message": "접속 성공",
+  "food": [
+    {
+      "foodkind": "appetizer",
+      "foodtitle": [
+        {
+          "background": "images/appetizer-bg.jpg",
+          "title": "Salad Menu",
+          "content-one": "다양하고 신선한 채소가 가득한 닥터로빈 샐러드는 영양이 풍부하고",
+          "content-two": "재료본연의 맛을 느낄 수 있는 설탕이 들어가지 않은 건강한 레시피로 만듭니다"
+        }
+      ],
+      "menu": [
+        {
+          "id": "ATR000",
+          "img": "images/ricota.jpg",
+          "name": "리코타 치즈 샐러드",
+          "en-name": "Ricotta Cheese Salad with Oriental Sauce",
+          "content": "시금치, 슈퍼그레인, 리코타 치즈에 무설탕 오리엔탈 드레싱을 곁들인 샐러드"
+        },
+        {
+          "id": "ATR001",
+          "img": "images/mushroom.jpg",
+          "name": "머쉬룸 샐러드",
+          "en-name": "Mushroom Salad with Extra Virgin Olive Oil Sauce",
+          "content": "버섯 자체의 풍미와 감칠맛을 최대한 느낄 수 있도록 엑스트라 버진 올리브 오일에 볶은 샐러드"
+        },
+        {
+          "id": "ATR002",
+          "img": "images/chicken.jpg",
+          "name": "치킨 시저 샐러드",
+          "en-name": "Chicken Caeser Salad",
+          "content": "파마산치즈와 노른자로 만든 드레싱으로 베이컨과 삶은 달걀, 크루통이 토핑된 치킨 시저 샐러드" 
+        },
+        {
+          "id": "ATR003",
+          "img": "images/Pumpkin.jpg",
+          "name": "통단호박 크림스프(1인용)",
+          "en-name": "Sweet Pumpkin Cream Soup (for 1)",
+          "content": ""  
+        },
+        {
+          "id": "ATR004",
+          "img": "images/Whole_Pumpkin.jpg",
+          "name": "통단호박 크림스프 (2~3인용)",
+          "en-name": "Whole Sweet Pumpkin Soup (for 2~3)",
+          "content": "Since 2006 연속 판매 1위를 차지한 닥터로빈의 대표메뉴"  
+        }
+      ]
+    },
+    {
+      "foodkind": "pizza",
+      "foodtitle": [
+        {
+          "background": "images/appetizer-bg.jpg",
+          "title": "Salad Menu",
+          "content-one": "다양하고 신선한 채소가 가득한 닥터로빈 샐러드는 영양이 풍부하고",
+          "content-two": "재료본연의 맛을 느낄 수 있는 설탕이 들어가지 않은 건강한 레시피로 만듭니다"
+        }
+      ],
+      "menu": [
+        {
+          "id": "ATR000",
+          "img": "images/ricota.jpg",
+          "name": "리코타 치즈 샐러드",
+          "en-name": "Ricotta Cheese Salad with Oriental Sauce",
+          "content": "시금치, 슈퍼그레인, 리코타 치즈에 무설탕 오리엔탈 드레싱을 곁들인 샐러드"
+        },
+        {
+          "id": "ATR001",
+          "img": "images/mushroom.jpg",
+          "name": "머쉬룸 샐러드",
+          "en-name": "Mushroom Salad with Extra Virgin Olive Oil Sauce",
+          "content": "버섯 자체의 풍미와 감칠맛을 최대한 느낄 수 있도록 엑스트라 버진 올리브 오일에 볶은 샐러드"
+        },
+        {
+          "id": "ATR002",
+          "img": "images/chicken.jpg",
+          "name": "치킨 시저 샐러드",
+          "en-name": "Chicken Caeser Salad",
+          "content": "파마산치즈와 노른자로 만든 드레싱으로 베이컨과 삶은 달걀, 크루통이 토핑된 치킨 시저 샐러드" 
+        },
+        {
+          "id": "ATR003",
+          "img": "images/Pumpkin.jpg",
+          "name": "통단호박 크림스프(1인용)",
+          "en-name": "Sweet Pumpkin Cream Soup (for 1)",
+          "content": ""  
+        },
+        {
+          "id": "ATR004",
+          "img": "images/Whole_Pumpkin.jpg",
+          "name": "통단호박 크림스프 (2~3인용)",
+          "en-name": "Whole Sweet Pumpkin Soup (for 2~3)",
+          "content": "Since 2006 연속 판매 1위를 차지한 닥터로빈의 대표메뉴"  
+        }
+      ]
+    }
+  ]
+}
