@@ -7,7 +7,6 @@ import { useEffect, useState } from "react";
 import './MainImg.scss';
 SwiperCore.use([Navigation, Pagination, Autoplay]); // 추가
 export default function MainImg() {
-  const [page, setPage] = useState(0);
   useEffect(() => {
 
   }, [])
@@ -15,12 +14,12 @@ export default function MainImg() {
     <div className="top-bg">
       <Swiper
         className="swiper"
-        modules={[Navigation, Pagination]}
+        modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={0}
         slidesPerView={1}
         pagination={{ clickable: true }}
-        touchRatio={0} // 드래그 이동 불가
-        initialSlide={page}
+        // touchRatio={0} // 드래그 이동 불가
+        loop={true}
       >
         <img className="logo" src="images/dr-robbin-slider-logo.png" alt="" />
 
