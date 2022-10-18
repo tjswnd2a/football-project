@@ -1,4 +1,8 @@
 import './AboutRobbin.scss';
+import { useEffect,useState, useRef } from 'react';
+import gsap from 'gsap';
+import ScrollTrigger from "gsap/ScrollTrigger";
+
 export default function AboutRobbin() {
   return (
     <div className="about-robbin">
@@ -16,5 +20,5 @@ export default function AboutRobbin() {
         </p>
       </div>
     </div>
-  )
+  );
 }

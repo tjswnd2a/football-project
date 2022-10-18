@@ -19,7 +19,8 @@
         position: relative;
         width: 33%;
         margin-right: 2px;
-
+        opacity: 0;
+        transform: translateX(-15%);
         img {
 
           position: absolute;
@@ -40,6 +41,7 @@
         width: 66%;
         height: 100%;
         display: block;
+        
         .item{
           display: flex;
           height: 50%;
@@ -49,6 +51,8 @@
             object-position: center;
             width: 50%;
             height: 50%;
+            opacity: 0;
+            transform: translateX(15%);
           }
           &:first-child {
             padding-bottom: 2px;

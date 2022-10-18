@@ -16,6 +16,8 @@
         padding-top: 20%;
         font-size: 2rem;
         height: 20%;
+        transform: translateY(-10%);
+        opacity: 0;
         .contact {
           padding-top: 3%;
         }
@@ -23,11 +25,14 @@
       .content {
         line-height: 1.5rem;
         padding-top: 8%;
+        transform: translateY(10%);
+        opacity: 0;
       }
 
       button {
         margin-top: 7%;
         padding: 10px 20px;
+        opacity: 0;
       }
     }
   }

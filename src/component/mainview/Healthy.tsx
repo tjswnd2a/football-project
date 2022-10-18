@@ -13,12 +13,12 @@ export default function Healthy() {
 
           <div className="item-R">
             <div className="item">
-              <img src="images/grid-pizza.jpg" alt="" />
-              <img src="images/Seafood-Pasta.jpg" alt="" />
+              <img className="pizza" src="images/grid-pizza.jpg" alt="" />
+              <img className="pasta" src="images/Seafood-Pasta.jpg" alt="" />
             </div>
             <div className="item">
-              <img src="images/grid-coffee.jpg" alt="" />
-              <img src="images/grid-ice-cream.jpg" alt="" />
+              <img className="coffee" src="images/grid-coffee.jpg" alt="" />
+              <img className="ice" src="images/grid-ice-cream.jpg" alt="" />
             </div>
           </div>
         </div>

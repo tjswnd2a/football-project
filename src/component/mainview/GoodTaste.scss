@@ -7,14 +7,24 @@
   background-attachment: fixed;
   color: #fff;
   line-height: 1.5rem;
-  h4 {
-    font-family: 'Nanum Myeongjo', serif;;
-    font-weight: 700;
-    padding-top: 15%;
-    font-size: 2rem;
-  }
-  .content {
-    padding-top: 5%;
-    padding-bottom: 15%;
+
+  .inner {
+    h4 {
+      font-family: 'Nanum Myeongjo', serif;
+      font-weight: 700;
+      padding-top: 15%;
+      font-size: 2rem;
+      padding-bottom: 5%;
+      opacity: 0;
+      transform: translateY(-15%);
+    }
+
+    .content {
+      // padding-top: 5%;
+      padding-bottom: 15%;
+      opacity: 0;
+      transform: translateY(15%);
+
+    }
   }
 }
