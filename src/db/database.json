@@ -6,47 +6,57 @@
       "foodkind": "appetizer",
       "foodtitle": [
         {
-          "background": "images/appetizer-bg.jpg",
+          "background": "/images/appetizer-bg.jpg",
           "title": "Salad Menu",
-          "content-one": "다양하고 신선한 채소가 가득한 닥터로빈 샐러드는 영양이 풍부하고",
-          "content-two": "재료본연의 맛을 느낄 수 있는 설탕이 들어가지 않은 건강한 레시피로 만듭니다"
+          "content_one": "다양하고 신선한 채소가 가득한 닥터로빈 샐러드는 영양이 풍부하고",
+          "content_two": "재료본연의 맛을 느낄 수 있는 설탕이 들어가지 않은 건강한 레시피로 만듭니다"
         }
       ],
       "menu": [
         {
           "id": "ATR000",
-          "img": "images/ricota.jpg",
+          "img": "/images/ricota.jpg",
           "name": "리코타 치즈 샐러드",
-          "en-name": "Ricotta Cheese Salad with Oriental Sauce",
-          "content": "시금치, 슈퍼그레인, 리코타 치즈에 무설탕 오리엔탈 드레싱을 곁들인 샐러드"
+          "en_name": "Ricotta Cheese Salad with Oriental Sauce",
+          "price": "15,500",
+          "content_one": "시금치, 슈퍼그레인, 리코타 치즈에",
+          "content_two": "무설탕 오리엔탈 드레싱을 곁들인 샐러드"
         },
         {
           "id": "ATR001",
-          "img": "images/mushroom.jpg",
+          "img": "/images/mushroom.jpg",
           "name": "머쉬룸 샐러드",
-          "en-name": "Mushroom Salad with Extra Virgin Olive Oil Sauce",
-          "content": "버섯 자체의 풍미와 감칠맛을 최대한 느낄 수 있도록 엑스트라 버진 올리브 오일에 볶은 샐러드"
+          "en_name": "Mushroom Salad with Extra Virgin Olive Oil Sauce",
+          "price": "17,000",
+          "content_one": "버섯 자체의 풍미와 감칠맛을 최대한 느낄 수 있도록",
+          "content_two": "엑스트라 버진 올리브 오일에 볶은 샐러드"
         },
         {
           "id": "ATR002",
-          "img": "images/chicken.jpg",
+          "img": "/images/chicken.jpg",
           "name": "치킨 시저 샐러드",
-          "en-name": "Chicken Caeser Salad",
-          "content": "파마산치즈와 노른자로 만든 드레싱으로 베이컨과 삶은 달걀, 크루통이 토핑된 치킨 시저 샐러드" 
+          "en_name": "Chicken Caeser Salad",
+          "price": "17,500",
+          "content_one": "파마산 치즈와 노른자로 만든 드레싱으로 베이컨과",
+          "content_two": "삶은 달걀, 크루통이 토핑된 치킨 시저 샐러드"
         },
         {
           "id": "ATR003",
-          "img": "images/Pumpkin.jpg",
+          "img": "/images/Pumpkin.jpg",
           "name": "통단호박 크림스프(1인용)",
-          "en-name": "Sweet Pumpkin Cream Soup (for 1)",
-          "content": ""  
+          "en_name": "Sweet Pumpkin Cream Soup (for 1)",
+          "price": "9,900",
+          "content_one": "",
+          "content_two": "" 
         },
         {
           "id": "ATR004",
-          "img": "images/Whole_Pumpkin.jpg",
+          "img": "/images/Whole_Pumpkin.jpg",
           "name": "통단호박 크림스프 (2~3인용)",
-          "en-name": "Whole Sweet Pumpkin Soup (for 2~3)",
-          "content": "Since 2006 연속 판매 1위를 차지한 닥터로빈의 대표메뉴"  
+          "en_name": "Whole Sweet Pumpkin Soup (for 2~3)",
+          "price": "19,500",
+          "content_one": "15년 연속 판매 1위를 차지한 닥터로빈의 대표메뉴",
+          "content_two": ""
         }
       ]
     },
@@ -54,47 +64,235 @@
       "foodkind": "pizza",
       "foodtitle": [
         {
-          "background": "images/appetizer-bg.jpg",
-          "title": "Salad Menu",
-          "content-one": "다양하고 신선한 채소가 가득한 닥터로빈 샐러드는 영양이 풍부하고",
-          "content-two": "재료본연의 맛을 느낄 수 있는 설탕이 들어가지 않은 건강한 레시피로 만듭니다"
+          "background": "/images/pizza-menu-page-image.jpg",
+          "title": "Pizza Menu",
+          "content_one": "100% 친환경 현미가루와 오징어 먹물, 슈퍼곡물인 아마씨드와 햄프씨드를 넣어만든",
+          "content_two": "고소한 맛의 얇은 도우 위에 신선한 재료를 듬뿍 토핑하여 더욱 맛있고 건강한 피자를 만듭니다."
         }
       ],
       "menu": [
         {
           "id": "ATR000",
-          "img": "images/ricota.jpg",
-          "name": "리코타 치즈 샐러드",
-          "en-name": "Ricotta Cheese Salad with Oriental Sauce",
-          "content": "시금치, 슈퍼그레인, 리코타 치즈에 무설탕 오리엔탈 드레싱을 곁들인 샐러드"
+          "img": "/images/Margherita.jpg",
+          "name": "마르게리따 피자",
+          "en_name": "Margherita Pizza",
+          "price": "17,500",
+          "content_one": "토마토, 바질, 모짜렐라 치즈가 듬뿍 얹어진 담백한 맛의 피자",
+          "content_two": ""
         },
         {
-          "id": "ATR001",
-          "img": "images/mushroom.jpg",
-          "name": "머쉬룸 샐러드",
-          "en-name": "Mushroom Salad with Extra Virgin Olive Oil Sauce",
-          "content": "버섯 자체의 풍미와 감칠맛을 최대한 느낄 수 있도록 엑스트라 버진 올리브 오일에 볶은 샐러드"
+          "id": "ATR000",
+          "img": "/images/Robbin.jpg",
+          "name": "닥터로빈 피자",
+          "en_name": "Dr.Robbin Pizza",
+          "price": "18,500",
+          "content_one": "다진 소고기, 블랙 올리브, 양파와 피망 등 토핑이 가득한 가장 클래식한 피자",
+          "content_two": ""
         },
         {
-          "id": "ATR002",
-          "img": "images/chicken.jpg",
-          "name": "치킨 시저 샐러드",
-          "en-name": "Chicken Caeser Salad",
-          "content": "파마산치즈와 노른자로 만든 드레싱으로 베이컨과 삶은 달걀, 크루통이 토핑된 치킨 시저 샐러드" 
+          "id": "ATR000",
+          "img": "/images/Quattro.jpg",
+          "name": "트러플 콰트로 포르마지",
+          "en_name": "Truffle Quattro Formaggi",
+          "price": "19,500",
+          "content_one": "고르곤졸라, 모짜렐라, 체다, 그라나파다노",
+          "content_two": "4가지 치즈와 트러플향의 꿀이 어우러진 피자"
         },
         {
-          "id": "ATR003",
-          "img": "images/Pumpkin.jpg",
-          "name": "통단호박 크림스프(1인용)",
-          "en-name": "Sweet Pumpkin Cream Soup (for 1)",
-          "content": ""  
+          "id": "ATR000",
+          "img": "/images/Ricotta.jpg",
+          "name": "리코타 치즈 & 구운 가지 피자",
+          "en_name": "Ricotta Cheese & Roasted Eggplant Pizza",
+          "price": "19,500",
+          "content_one": "토마토 소스를 바른 도우 위에 리코타 치즈와",
+          "content_two": "건강한 식재료인 가지를 구워 올린 피자"
         },
         {
-          "id": "ATR004",
-          "img": "images/Whole_Pumpkin.jpg",
-          "name": "통단호박 크림스프 (2~3인용)",
-          "en-name": "Whole Sweet Pumpkin Soup (for 2~3)",
-          "content": "Since 2006 연속 판매 1위를 차지한 닥터로빈의 대표메뉴"  
+          "id": "ATR000",
+          "img": "/images/Ricotta.jpg",
+          "name": "건강한 계란을 품은 시금치에그피자",
+          "en_name": "Fresh Spinach & Egg Pizza",
+          "price": "19,500",
+          "content_one": "친환경 현미가루로 만든 도우에 시금치와",
+          "content_two": "건강한 계란을 반숙으로 익혀만든 부드러운 피자"
+        }
+      ]
+    },
+    {
+      "foodkind": "pasta",
+      "foodtitle": [
+        {
+          "background": "/images/pasta-menu.jpg",
+          "title": "Pasta Menu",
+          "content_one": "오직 닥터로빈에서만 만나실수 있는",
+          "content_two": "건강하고 특별한 토마토, 크림, 오일파스타를 맛보세요!"
+        }
+      ],
+      "menu": [
+        {
+          "id": "ATR000",
+          "img": "/images/Arrabiata.jpg",
+          "name": "아라비아따",
+          "en_name": "Arrabiata",
+          "price": "17,500",
+          "content_one": "기름기를 충분히 뺀 베이컨과 드라이 레드페퍼를",
+          "content_two": "갈아넣어 매콤한 맛이 이색적인 토마토 파스타"
+        },
+        {
+          "id": "ATR000",
+          "img": "/images/Seafood.jpg",
+          "name": "해산물 토마토 파스타",
+          "en_name": "Seafood Tomato Sauce Pasta",
+          "price": "19,000",
+          "content_one": "홍합, 오징어, 새우 등 해산물의 깊은 맛과",
+          "content_two": "진한 홈메이드 토마토 소스의 맛이 어우러진 파스타"
+        },
+        {
+          "id": "ATR000",
+          "img": "/images/Soup.jpg",
+          "name": "해산물 국물 파스타",
+          "en_name": "Seafood Soup Pasta",
+          "price": "19,500",
+          "content_one": "싱싱한 제철 해산물과 토마토소스를",
+          "content_two": "베이스로 하여 매콤하게 끓여낸 국물 파스타"
+        },
+        {
+          "id": "ATR000",
+          "img": "/images/Home-made.jpg",
+          "name": "수제 햄버거 스테이크 토마토 파스타",
+          "en_name": "Home-made Burger Tomato Pasta & Fried Egg",
+          "price": "21,000",
+          "content_one": "닥터로빈 대표메뉴인 수제 햄버거 패티위에",
+          "content_two": "건강한 달걀 프라이를 얹은 토마토 소스의 파스타"
+        }
+      ]
+    },
+    {
+      "foodkind": "rice",
+      "foodtitle": [
+        {
+          "background": "/images/rice-title-image.jpg",
+          "title": "Rice Menu",
+          "content_one": "식이섬유와 비타민, 무기질 등의 영양이 가득한",
+          "content_two": "잡곡(Multigrain)을 넣어 만든 라이스메뉴 입니다."
+        }
+      ],
+      "menu": [
+        {
+          "id": "ATR000",
+          "img": "/images/Spciy.jpg",
+          "name": "Spciy 타이 라이스",
+          "en_name": "Spicy Thai Rice",
+          "price": "17,500",
+          "content_one": "해산물 볶음밥에 매콤, 바삭하게 볶아낸 건새우와 숙주가",
+          "content_two": "곁들어진 이국적인 맛의 타이식 볶음밥"
+        },
+        {
+          "id": "ATR000",
+          "img": "/images/Oriental.jpg",
+          "name": "비프 오리엔탈 라이스",
+          "en_name": "Beef Oriental Sauce Rice",
+          "price": "18,500",
+          "content_one": "감칠맛 나는 불고기와 여러가지 채소를 듬뿍 넣어",
+          "content_two": "잡곡밥과 건강하게 볶아낸 닥터로빈의 인기메뉴"
+        },
+        {
+          "id": "ATR000",
+          "img": "/images/Eggplant.jpg",
+          "name": "가지 비프 토마토 리조또",
+          "en_name": "Eggplant, Beef and Tomato Risotto",
+          "price": "18,500",
+          "content_one": "건강식재료 가지와 부드럽고 고소한",
+          "content_two": "리코타 치즈가 올라간 매콤한 토마토 리조또"
+        },
+        {
+          "id": "ATR000",
+          "img": "/images/Cream.jpg",
+          "name": "로제 콩크림 비프 리조또",
+          "en_name": "Bean Cream Rose Sauce Beef Risotto",
+          "price": "19,000",
+          "content_one": "고추장이 가미된 콩크림 소스에 볶은 소고기와 대파",
+          "content_two": "그리고 건강한 무항생제 달걀 노른자로 완성한 리조또"
+        },
+        {
+          "id": "ATR000",
+          "img": "/images/Truffle.jpg",
+          "name": "트러플향이 가득한 버섯 크림 리조또",
+          "en_name": "Truffle Oil Mushroom Cream Sauce Risotto",
+          "price": "19,500",
+          "content_one": "깊고 진한 송로버섯 오일로 풍미를 더한",
+          "content_two": "프리미엄 크림 리조또"
+        }
+      ]
+    },
+    {
+      "foodkind": "kids",
+      "foodtitle": [
+        {
+          "background": "/images/kids-menu-header.jpg",
+          "title": "Kids Menu",
+          "content_one": "한창 자라나는 아이들을 위해 닥터로빈은 더욱 깐깐하게 준비합니다.",
+          "content_two": "아이들의 건강을 최우선으로, 몸에 이로운 재료만 넣고, 간을 최소화 하였습니다."
+        }
+      ],
+      "menu": [
+        {
+          "id": "ATR000",
+          "img": "/images/OrientalKids.jpg",
+          "name": "영양 가득 비프라이스",
+          "en_name": "Beef Oriental Rice for Kids",
+          "price": "9,500",
+          "content_one": "",
+          "content_two": ""
+        },
+        {
+          "id": "ATR000",
+          "img": "/images/BeefKids.jpg",
+          "name": "순수 크림 파스타 (with 비프)",
+          "en_name": "Beef Cream Pasta for Kids",
+          "price": "9,500",
+          "content_one": "",
+          "content_two": ""
+        }
+      ]
+    },
+    {
+      "foodkind": "special",
+      "foodtitle": [
+        {
+          "background": "/images/special-menu-header.jpg",
+          "title": "Special Menu",
+          "content_one": "닥터로빈에서만 맛 볼 수 있는 스페셜 메뉴입니다.",
+          "content_two": ""
+        }
+      ],
+      "menu": [
+        {
+          "id": "ATR000",
+          "img": "/images/KakaoTalk_20221012_095339714.png",
+          "name": "바질 마늘 바게트",
+          "en_name": "Garlic Baguette",
+          "price": "6,300",
+          "content_one": "향긋한 바질페스토와 모짜렐라 치즈, 오븐에 구운 마늘 향이",
+          "content_two": "어우러진 바삭하면서도 촉촉한 홈메이드 바게트"
+        },
+        {
+          "id": "ATR000",
+          "img": "/images/Cazuela.jpg",
+          "name": "통새우 까수엘라",
+          "en_name": "Shrimp Cazuela",
+          "price": "16,500",
+          "content_one": "통새우와 마늘, 올리브, 페퍼론치노를 올리브 오일과",
+          "content_two": "함께 자글자글 끓여낸 스페인 대표 요리"
+        },
+        {
+          "id": "ATR000",
+          "img": "/images/Steak.jpg",
+          "name": "더블 햄버거 스테이크",
+          "en_name": "Home-made Beef Hamburger Steak",
+          "price": "23,900",
+          "content_one": "다진 소고기, 양파, 치즈 등의 각종 재료를 넣어",
+          "content_two": "만든 홈메이드 패티가 두 장이나 담긴 더블햄버거 스테이크"
         }
       ]
     }

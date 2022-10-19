@@ -1,0 +1,46 @@
+.top-banner {
+  position: relative;
+  padding-top: 80px;
+  width: 100%;
+  height: 300px;
+  color: #fff;
+
+  .bg {
+    img {
+      z-index: -1;
+      position: absolute;
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  .inner {
+    text-align: center;
+
+    h4 {
+      font-weight: 700;
+      font-family: 'Nanum Myeongjo', serif;
+      padding-top: 50px;
+      font-size: 3rem;
+      transform: translateX(-20%);
+      opacity: 0;
+    }
+
+    .line {
+      width: 8%;
+      height: 2px;
+      background-color: #fff;
+      margin: 40px auto;
+
+    }
+
+    p {
+      line-height: 1.5rem;
+      transform: translateX(20%);
+      opacity: 0;
+
+    }
+  }
+}

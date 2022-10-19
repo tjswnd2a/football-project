@@ -1,0 +1,15 @@
+.menu-view {
+  display: block;
+  .container {
+  padding-top: 20px;
+
+    .inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+
+      .box {
+        margin: 0 auto;
+      }
+    }
+  }
+}

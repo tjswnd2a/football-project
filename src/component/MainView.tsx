@@ -9,9 +9,9 @@ import CustomerService from './mainview/CustomerService';
 import MainViewAni from '../Animation/MainViewAni';
 import { useEffect } from 'react';
 export default function MainView() {
-  useEffect(()=> {
+  useEffect(() => {
     MainViewAni();
-  },[]);
+  }, []);
   return (
     <>
       <section className='main-screen'>

@@ -1,14 +1,12 @@
 import './Header.scss';
 import React, { useState, useEffect } from 'react';
-import { getDatabase } from './function/dbload';
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [menuBtn, setMenuBtn] = useState<string>("hambergur-menu");
   const [itemList, setItemList] = useState<string>("menu-item");
   const False: number = -1;
 
-  const [clickItem,setClickItem] = useState<string>("");
-  const [itemArray, setItemArray] = useState<Array<Object>>([]);
   const onClick = () => {
 
     if (menuBtn.indexOf(' show') === False &&
@@ -21,21 +19,15 @@ export default function Header() {
     }
   };
 
-  const getName = (e: any) => {
-    console.log(e.target.innerHTML);
-    setClickItem(e.target.innerHTML);
-  }
-  useEffect(()=> {
-    setItemArray(getDatabase(clickItem));
-  },[clickItem]);
-  useEffect(()=> {
-  },[itemArray])
+
   return (
     <>
       <header>
         <div className="inner">
           <div className="logo">
-            <img src="images/dr-robbin-logo-green-150.png" alt="" />
+            <Link to={'/'}>
+              <img src="/images/dr-robbin-logo-green-150.png" alt="" />
+            </Link>
           </div>
 
           <div className={menuBtn} onClick={onClick}>
@@ -45,44 +37,66 @@ export default function Header() {
           <div className={itemList}>
             <ul className="menu">
               <li className="item1">
-                <a href="#" className="title-dr">DR.Robbin ▾</a>
+                <a href="javascript:void(0)" className="title-dr">DR.Robbin ▾</a>
                 <ul className="sub-menu">
                   <li className="sub-item">
-                    <a href="#">About</a>
+                    <a href="javascript:void(0)">About</a>
                   </li>
                   <li className="sub-item">
-                    <a href="#">Lab</a>
+                    <a href="javascript:void(0)">Lab</a>
                   </li>
                 </ul>
               </li>
               <li className="item2">
-                <a href="#" className="title-menu">MENU ▾</a>
+                <a href="javascript:void(0)" className="title-menu">MENU ▾</a>
                 <ul className="sub-menu">
-                  <li className="sub-item">
-                    <a href="#" onClick={getName}>Appetizer</a>
-                  </li>
-                  <li className="sub-item">
-                    <a href="#" onClick={getName}>Pizza</a>
-                  </li>
-                  <li className="sub-item">
-                    <a href="#" onClick={getName}>Rice</a>
-                  </li>
-                  <li className="sub-item">
-                    <a href="#">Kids</a>
-                  </li>
-                  <li className="sub-item">
-                    <a href="#">Special</a>
-                  </li>
+                  <Link to={'/Appetizer'} state={{ name: "Appetizer" }} onClick={onClick}>
+                    <li className="sub-item">
+                      <a href="javascript:void(0)">Appetizer</a>
+                    </li>
+                  </Link>
+                  <Link to={'/Pizza'} state={{ name: "Pizza" }} onClick={onClick}>
+                    <li className="sub-item">
+                      <a href="javascript:void(0)">Pizza</a>
+                    </li>
+                  </Link>
+                  <Link to={'/Pasta'} state={{ name: "Pasta" }} onClick={onClick}>
+                    <li className="sub-item">
+                      <a href="javascript:void(0)">Pasta</a>
+                    </li>
+                  </Link>
+                  <Link to={'/Rice'} state={{ name: "Rice" }} onClick={onClick}>
+                    <li className="sub-item">
+                      <a href="javascript:void(0)">Rice</a>
+                    </li>
+                  </Link>
+                  <Link to={'/Kids'} state={{ name: "Kids" }} onClick={onClick}>
+                    <li className="sub-item">
+                      <a href="javascript:void(0)">Kids</a>
+                    </li>
+                  </Link>
+                  <Link to={'/Special'} state={{ name: "Special" }} onClick={onClick}>
+                    <li className="sub-item">
+                      <a href="javascript:void(0)">Special</a>
+                    </li>
+                  </Link>
+
                 </ul>
               </li>
               <li className="item">
-                <a href="#">STORE</a>
+                <Link to={'/'} onClick={onClick}>
+                  <a href="javascript:void(0)">STORE</a>
+                </Link>
               </li>
               <li className="item">
-                <a href="#">EVENT</a>
+                <Link to={'/'} onClick={onClick}>
+                  <a href="javascript:void(0)">EVENT</a>
+                </Link>
               </li>
               <li className="item">
-                <a href="#">RECRUIT</a>
+                <Link to={'/'} onClick={onClick}>
+                  <a href="javascript:void(0)">RECRUIT</a>
+                </Link>
               </li>
             </ul>
           </div>

@@ -1,0 +1,16 @@
+.food-type{
+  .inner {
+    display: flex;
+    padding-top: 30px;
+    justify-content: center;
+    .type {
+      display: flex;
+      width: 60%;
+      justify-content: space-around;
+      li{
+        color: rgb(105, 103, 103);
+
+      }
+    }
+  }
+}

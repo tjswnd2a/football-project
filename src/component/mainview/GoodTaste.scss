@@ -6,7 +6,6 @@
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
-  line-height: 1.5rem;
 
   .inner {
     h4 {
@@ -20,6 +19,8 @@
     }
 
     .content {
+      line-height: 1.5rem;
+
       // padding-top: 5%;
       padding-bottom: 15%;
       opacity: 0;
