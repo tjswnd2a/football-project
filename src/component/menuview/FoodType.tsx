@@ -14,7 +14,7 @@ export default function FoodType({ active_name }: { active_name: string }) {
     gsap.registerPlugin(ScrollTrigger);
     food_type.map((item: string) => {
       if (item === active_name) {
-        gsap.to(`.food-type .inner .type .${item}`, 1, {
+        gsap.to(`.food-type .inner .type .${item}`, 0, {
           fontWeight: "500",
           color: "black"
         });
