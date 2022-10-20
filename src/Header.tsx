@@ -60,14 +60,14 @@ export default function Header() {
                       <a href="javascript:void(0)">Pizza</a>
                     </li>
                   </Link>
-                  <Link to={'/Pasta'} state={{ name: "Pasta" }} onClick={onClick}>
-                    <li className="sub-item">
-                      <a href="javascript:void(0)">Pasta</a>
-                    </li>
-                  </Link>
                   <Link to={'/Rice'} state={{ name: "Rice" }} onClick={onClick}>
                     <li className="sub-item">
                       <a href="javascript:void(0)">Rice</a>
+                    </li>
+                  </Link>
+                  <Link to={'/Pasta'} state={{ name: "Pasta" }} onClick={onClick}>
+                    <li className="sub-item">
+                      <a href="javascript:void(0)">Pasta</a>
                     </li>
                   </Link>
                   <Link to={'/Kids'} state={{ name: "Kids" }} onClick={onClick}>
