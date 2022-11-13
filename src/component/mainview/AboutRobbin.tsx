@@ -1,23 +1,36 @@
-import './AboutRobbin.scss';
-import { useEffect,useState, useRef } from 'react';
-import gsap from 'gsap';
+import "./AboutRobbin.scss";
+import { useEffect, useState, useRef } from "react";
+import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
 export default function AboutRobbin() {
   return (
     <div className="about-robbin">
       <div className="inner">
-        <h4>About Dr.Robbin</h4>
+        <h4>About SJ.Football</h4>
         <p className="content">
-          100% 순수 국내브랜드 닥터로빈<br />
-          ‘우리의 먹거리’, ‘우리의 건강’을 다른 사람에게 맡길 수 없었습니다.
+          본 사이트는 수익/흥보/사업용이 아닌 개인 포트폴리오 입니다.
+          <br />
         </p>
         <p className="detail-content">
-          닥터로빈은 100% 국내 자본력과 기술력의 순수 국내브랜드 입니다.<br />
-          자체 식품 연구소와 자동화 시스템 공장을 설립하여 건강에 대한 정직함을 추구합니다.<br />
-          건강을 생각하는 우리의 철학은 국내 시장의 성공을 이끌며,미국, 중국, 홍콩, 일본, 호주의<br />
-          상표권 등록으로 해외 역수출의 기회까지 만들어낸 핵심 가치입니다.<br />
+          100% 정품 판매 매장 SJ.Football 입니다.
+          <br />
+          제품의 문제가 있을경우 제조사 AS가 가능합니다.
+          <br />
+          저희는 전문적인 축구 용품만을 생산, 유통하여 한국 발전에 기여하고
+          있습니다.
+          <br />
+          축구를 사랑하는 고객분들께 오래도록 사랑과 신뢰를 받는 기업으로
+          성장시켜 나갈 것이며
+          <br />
+          항상 최선을 다하는 기업이 되겠습니다.
+          <br />
         </p>
+        <div className="github">
+          <a href="https://github.com/tjswnd2a/football-project">
+            <img src="/images/github.png" alt="" />
+          </a>
+        </div>
       </div>
     </div>
   );

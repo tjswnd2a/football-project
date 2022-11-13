@@ -3,8 +3,7 @@
   font-size: 1rem;
 
   h4 {
-    font-family: 'Nanum Myeongjo', serif;
-    ;
+    font-family: "Nanum Myeongjo", serif;
     font-size: 3rem;
     font-weight: 700;
     padding-top: 15%;
@@ -21,7 +20,15 @@
     line-height: 1.5rem;
 
     padding-top: 2%;
-    padding-bottom: 13%;
+    padding-bottom: 4%;
     color: rgb(106, 103, 103);
+  }
+  .github {
+    cursor: pointer;
+    img {
+      width: 100px;
+      height: 100px;
+    }
+    padding-bottom: 7%;
   }
 }

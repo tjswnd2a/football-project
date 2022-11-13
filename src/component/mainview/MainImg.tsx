@@ -4,12 +4,10 @@ import "swiper/css"; //basic
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { useEffect, useState } from "react";
-import './MainImg.scss';
+import "./MainImg.scss";
 SwiperCore.use([Navigation, Pagination, Autoplay]); // 추가
 export default function MainImg() {
-  useEffect(() => {
-
-  }, [])
+  useEffect(() => {}, []);
   return (
     <div className="top-bg">
       <Swiper
@@ -24,10 +22,18 @@ export default function MainImg() {
         {/* <img className="logo" src="/images/dr-robbin-slider-logo.png" alt="" /> */}
 
         <SwiperSlide className="swiper-slide">
-          <img className="bg" src="/images/main1.jpg" alt="" />
+          <img
+            className="bg"
+            src="/images/football-scene-at-the-stadium-with-close-up-of-a-soccer-shoe-kicking-the-ball_207634-5556.jpg"
+            alt=""
+          />
 
           <div className="container">
-            <img className="logo" src="/images/dr-robbin-slider-logo.png" alt="" />
+            <img
+              className="logo"
+              src="/images/dr-robbin-slider-logo.png"
+              alt=""
+            />
 
             <div className="title">
               <h4>HONEST</h4>
@@ -36,25 +42,38 @@ export default function MainImg() {
               <p>고객의 건강을 최선으로 몸에 이로운 재료만 사용합니다.</p>
             </div>
           </div>
-
         </SwiperSlide>
         <SwiperSlide>
-          <img className="bg" src="/images/main2.jpg" alt="" />
+          <img
+            className="bg"
+            src="/images/football-g1e8dc9cda_1920.jpg"
+            alt=""
+          />
           <div className="container">
-            <img className="logo" src="/images/dr-robbin-slider-logo.png" alt="" />
+            <img
+              className="logo"
+              src="/images/dr-robbin-slider-logo.png"
+              alt=""
+            />
 
             <div className="title">
               <h4>SINCERELY</h4>
             </div>
             <div className="content">
-              <p>닥터로빈의 모든 직원은 원재료 섭외부터 조리까지 정성을 다합니다.</p>
+              <p>
+                닥터로빈의 모든 직원은 원재료 섭외부터 조리까지 정성을 다합니다.
+              </p>
             </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img className="bg" src="/images/main3.jpg" alt="" />
+          <img className="bg" src="/images/soccer-g6900feb73_1920.jpg" alt="" />
           <div className="container">
-            <img className="logo" src="/images/dr-robbin-slider-logo.png" alt="" />
+            <img
+              className="logo"
+              src="/images/dr-robbin-slider-logo.png"
+              alt=""
+            />
             <div className="title">
               <h4>MODESTY</h4>
             </div>
@@ -65,5 +84,5 @@ export default function MainImg() {
         </SwiperSlide>
       </Swiper>
     </div>
-  )
+  );
 }
