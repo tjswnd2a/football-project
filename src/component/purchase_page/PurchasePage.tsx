@@ -4,9 +4,8 @@ import "./PurchasePage.scss";
 
 export default function PurchasePage() {
   const location = useLocation();
-  const [result, setResult] = useState<number>(0);
+  const [result, setResult] = useState<string>("");
   let shoes_size: number = 230;
-  const regex: RegExp = /[^0-9]/g;
 
   const ul_rendering = () => {
     const result: any = [];
@@ -26,13 +25,9 @@ export default function PurchasePage() {
   };
   const onClick = (event: any) => {
     let temp: string = event.target;
-    // let result: string = temp.replace(regex, "");
     console.log(event.target.outerText);
-    // setResult(Number(temp.replace(regex, "")));
+    setResult(event.target.outerText)
   };
-  // useEffect(() => {
-  //   console.log(result);
-  // }, [result]);
   return (
     <div className="purchase-page">
       <div className="inner">
@@ -54,29 +49,8 @@ export default function PurchasePage() {
           <h3>사이즈 선택</h3>
           <div className="shoes-size">
             {ul_rendering()}
-            {/* <ul>
-              <li>230</li>
-              <li>235</li>
-              <li>240</li>
-              <li>245</li>
-              <li>250</li>
-            </ul>
-            <ul>
-              <li>255</li>
-              <li>260</li>
-              <li>265</li>
-              <li>270</li>
-              <li>275</li>
-            </ul>
-            <ul>
-              <li>280</li>
-              <li>285</li>
-              <li>290</li>
-              <li>295</li>
-              <li>300</li>
-            </ul> */}
           </div>
-          <h3>선택된 사이즈: </h3>
+          <h3>선택된 사이즈: {result}</h3>
           <div className="button-box">
             <button>구매하기</button>
           </div>

@@ -1,9 +1,9 @@
 import './MainView.scss';
 import '../common.scss';
 import MainImg from './mainview/MainImg';
-import AboutRobbin from './mainview/AboutRobbin';
-import GoodTaste from './mainview/GoodTaste';
-import Healthy from './mainview/Healthy';
+import AboutRobbin from './mainview/AboutFootball';
+import GoodQuality from './mainview/GoodQuality';
+import BrandStore from './mainview/BrandStore';
 import Stores from './mainview/Stores';
 import CustomerService from './mainview/CustomerService';
 import MainViewAni from '../Animation/MainViewAni';
@@ -17,8 +17,8 @@ export default function MainView() {
       <section className='main-screen'>
         <MainImg />
         <AboutRobbin />
-        <GoodTaste />
-        <Healthy />
+        <GoodQuality />
+        <BrandStore />
         <Stores />
         <CustomerService />
       </section>

@@ -1,9 +1,9 @@
-import "./AboutRobbin.scss";
+import "./AboutFootball.scss";
 import { useEffect, useState, useRef } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
-export default function AboutRobbin() {
+export default function AboutFootball() {
   return (
     <div className="about-robbin">
       <div className="inner">

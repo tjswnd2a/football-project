@@ -1,6 +1,6 @@
-import "./Food.scss";
+import "./Brand.scss";
 import { Link } from "react-router-dom";
-export default function Food({
+export default function Brand({
   bg,
   name,
   en_name,
@@ -16,7 +16,7 @@ export default function Food({
   content_two: string;
 }) {
   return (
-    <div className="food-info">
+    <div className="brand-info">
       <div className="image">
         <Link
           to={"/purchase"}

@@ -1,10 +1,10 @@
 {
   "tpye": "success",
   "message": "접속 성공",
-  "food": [
+  "brand": [
     {
-      "foodkind": "nike",
-      "foodtitle": [
+      "brandkind": "nike",
+      "brandtitle": [
         {
           "background": "/images/26595fc10eceb85ff5cabb2ae31d3cff.jpg",
           "title": "NIKE",
@@ -61,8 +61,8 @@
       ]
     },
     {
-      "foodkind": "adidas",
-      "foodtitle": [
+      "brandkind": "adidas",
+      "brandtitle": [
         {
           "background": "/images/Adidas-logo-wooden-background_1920x1200.jpg",
           "title": "ADIDAS",
@@ -119,8 +119,8 @@
       ]
     },
     {
-      "foodkind": "puma",
-      "foodtitle": [
+      "brandkind": "puma",
+      "brandtitle": [
         {
           "background": "/images/wallpaperbetter.com.jpg",
           "title": "PUMA",
@@ -168,8 +168,8 @@
       ]
     },
     {
-      "foodkind": "mizuno",
-      "foodtitle": [
+      "brandkind": "mizuno",
+      "brandtitle": [
         {
           "background": "/images/MIZUNO-PAGE_142514.jpg",
           "title": "MIZUNO",
@@ -199,8 +199,8 @@
       ]
     },
     {
-      "foodkind": "umbro",
-      "foodtitle": [
+      "brandkind": "umbro",
+      "brandtitle": [
         {
           "background": "/images/umbrobackground.jpg",
           "title": "UMBRO",
@@ -230,8 +230,8 @@
       ]
     },
     {
-      "foodkind": "underarmour",
-      "foodtitle": [
+      "brandkind": "underarmour",
+      "brandtitle": [
         {
           "background": "/images/drawn-advertisement-under-armour-508207-9173700.jpg",
           "title": "UNDER ARMOUR",

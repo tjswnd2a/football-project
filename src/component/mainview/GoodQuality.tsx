@@ -1,18 +1,17 @@
 import { useEffect, useState, useRef } from "react";
-import "./GoodTaste.scss";
+import "./GoodQuality.scss";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
-export default function GoodTaste() {
-  useEffect(() => {}, []);
+export default function GoodQuality() {
+  useEffect(() => { }, []);
   return (
-    <div className="good-taste">
+    <div className="good-quality">
       <div className="bg-cover"></div>
 
       <div className="inner">
         <h4>About SJ.FootBall</h4>
 
-        {/* <h4>Good in more than just taste.</h4> */}
         <p className="content">
           우리 SJ.Football 온라인은 브랜드 지정 공식축구 전문점 입니다.
           <br />

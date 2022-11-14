@@ -1,8 +1,8 @@
-import "./Healthy.scss";
+import "./BrandStore.scss";
 import { Link } from "react-router-dom";
-export default function Healthy() {
+export default function BrandStore() {
   return (
-    <div className="healthy-food">
+    <div className="brand-store">
       <div className="inner">
         <h4>FOOTBALL BRAND STORE</h4>
         <div className="brand-logo">

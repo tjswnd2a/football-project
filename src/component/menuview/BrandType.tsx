@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import "./FoodType.scss";
+import "./BrandType.scss";
 
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 
-export default function FoodType({ active_name }: { active_name: string }) {
-  const [food_type, setFoodType] = useState<Array<string>>([
+export default function BrandType({ active_name }: { active_name: string }) {
+  const [brand_type, setBrandType] = useState<Array<string>>([
     "Nike",
     "Adidas",
     "Puma",
@@ -17,20 +17,20 @@ export default function FoodType({ active_name }: { active_name: string }) {
 
   useEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
-    food_type.map((item: string) => {
+    brand_type.map((item: string) => {
       if (item === active_name) {
-        gsap.to(`.food-type .inner .type .${item}`, 0, {
+        gsap.to(`.brand-type .inner .type .${item}`, 0, {
           fontWeight: "500",
           color: "black",
         });
       }
     });
-  }, [food_type]);
+  }, [brand_type]);
   return (
-    <div className="food-type">
+    <div className="brand-type">
       <div className="inner">
         <ul className="type">
-          {food_type.map((item: string) => (
+          {brand_type.map((item: string) => (
             <Link to={`/${item}`} state={{ name: item }}>
               <li className={item}>{item}</li>
             </Link>

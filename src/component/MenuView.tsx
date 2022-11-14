@@ -1,22 +1,22 @@
 import { useEffect, useState } from 'react';
 import { getDatabase, setBanner, setMenuList } from '../function/dbload';
 import TopBanner from "./menuview/TopBanner";
-import FoodType from "./menuview/FoodType";
-import Food from "./menuview/Food";
+import BrandType from "./menuview/BrandType";
+import Brand from "./menuview/Brand";
 // import MenuViewAni from "../Animation/MenuViewAni";
 
 import './MenuView.scss'
-export default function MenuView({ food_name }: { food_name: string }) {
+export default function MenuView({ brand_name }: { brand_name: string }) {
 
   const [data, setData] = useState<Array<any>>([]);
   const [dbConnect, setConnect] = useState<boolean>(false);
   const [imgLoad, setImgLoad] = useState<boolean>(false);
 
   const [menuBanner, setMenuBanner] = useState<Array<any>>([]);
-  const [foodList, setFoodList] = useState<Array<any>>([]);
+  const [brandList, setBrandList] = useState<Array<any>>([]);
 
   useEffect(() => {
-    setData(getDatabase(food_name));
+    setData(getDatabase(brand_name));
     setConnect(true);
     // MenuViewAni();
   }, []);
@@ -24,7 +24,7 @@ export default function MenuView({ food_name }: { food_name: string }) {
   useEffect(() => {
     if (dbConnect) {
       setMenuBanner(setBanner(data));
-      setFoodList(setMenuList(data));
+      setBrandList(setMenuList(data));
       setImgLoad(true);
     }
   }, [data])
@@ -40,13 +40,13 @@ export default function MenuView({ food_name }: { food_name: string }) {
         />
       ) : null
       }
-      <FoodType active_name={food_name} />
+      <BrandType active_name={brand_name} />
 
       <div className="container">
         <div className="inner">
           {
-            foodList.map((item) =>
-              <Food
+            brandList.map((item) =>
+              <Brand
                 bg={item.img}
                 name={item.name}
                 en_name={item.en_name}

@@ -1,10 +1,10 @@
 import MenuView from "./MenuView";
 import { useLocation } from 'react-router-dom';
 
-export default function AppetizerPage() {
+export default function MizunoPage() {
   const location = useLocation();
 
   return (
-    <MenuView food_name={location.state.name} />
+    <MenuView brand_name={location.state.name} />
   )
 }

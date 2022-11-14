@@ -1,12 +1,12 @@
 import React from "react";
 import Header from "./Header";
 import MainView from "./component/MainView";
-import AppetizerPage from "./component/AppetizerPage";
-import PizzaPage from "./component/PizzaPage";
-import RicePage from "./component/RicePage";
-import KidsPage from "./component/KidsPage";
-import PastaPage from "./component/PastaPage";
-import SpecialPage from "./component/SpecialPage";
+import NikePage from "./component/NikePage";
+import AdidasPage from "./component/AdidasPage";
+import PumaPage from "./component/PumaPage";
+import UmbroPage from "./component/UmbroPage";
+import MizunoPage from "./component/MizunoPage";
+import UnderArmourPage from "./component/UnderArmourPage";
 import PurchasePage from "./component/purchase_page/PurchasePage";
 
 import "./App.scss";
@@ -19,12 +19,12 @@ function App() {
         <Routes>
           <Route path="/" element={<MainView />}></Route>
           <Route path="/purchase" element={<PurchasePage />}></Route>
-          <Route path="/Nike" element={<AppetizerPage />}></Route>
-          <Route path="/Adidas" element={<PizzaPage />}></Route>
-          <Route path="/PUMA" element={<RicePage />}></Route>
-          <Route path="/MIZUNO" element={<PastaPage />}></Route>
-          <Route path="/UMBRO" element={<KidsPage />}></Route>
-          <Route path="/UnderArmour" element={<SpecialPage />}></Route>
+          <Route path="/Nike" element={<NikePage />}></Route>
+          <Route path="/Adidas" element={<AdidasPage />}></Route>
+          <Route path="/PUMA" element={<PumaPage />}></Route>
+          <Route path="/MIZUNO" element={<MizunoPage />}></Route>
+          <Route path="/UMBRO" element={<UmbroPage />}></Route>
+          <Route path="/UnderArmour" element={<UnderArmourPage />}></Route>
         </Routes>
       </BrowserRouter>
     </>
