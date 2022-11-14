@@ -6,15 +6,13 @@ export default function Stores() {
       <div className="bg-cover"></div>
       <h4>Stores</h4>
       <div className="content">
-        <p>“정직의 원칙을 지키기 위하여 쉬운 길을 포기합니다”</p>
+        <p>“전국 신뢰도1위 전문 쇼핑몰”</p>
       </div>
       <div className="detail-content">
         <p>
-          닥터로빈 브랜드 철학을 유지하기 위해 본사가 100% 직접 운영하고
-          있습니다.
+          빠른배송과 정직한 가격으로 만나보실 수 있도록 준비하고 있습니다.
           <br />
-          건강과 관련된 사소한 문제도 발생하지 않도록 본사에서 직접 꼼꼼하게
-          관리합니다.
+          이벤트로 많은 혜텍도 받아보세요.
         </p>
       </div>
       <button className="btn-common">View Our Stores</button>

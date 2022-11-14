@@ -3,296 +3,269 @@
   "message": "접속 성공",
   "food": [
     {
-      "foodkind": "appetizer",
+      "foodkind": "nike",
       "foodtitle": [
         {
-          "background": "/images/appetizer-bg.jpg",
-          "title": "Salad Menu",
-          "content_one": "다양하고 신선한 채소가 가득한 닥터로빈 샐러드는 영양이 풍부하고",
-          "content_two": "재료본연의 맛을 느낄 수 있는 설탕이 들어가지 않은 건강한 레시피로 만듭니다"
+          "background": "/images/26595fc10eceb85ff5cabb2ae31d3cff.jpg",
+          "title": "NIKE",
+          "content_one": "미국의 스포츠 용품 브랜드 나이키(Nike)",
+          "content_two": "전 세계 스포츠 용품 시장에서 독보적인 1위를 대표하고 있습니다."
         }
       ],
       "menu": [
         {
           "id": "ATR000",
-          "img": "/images/ricota.jpg",
-          "name": "리코타 치즈 샐러드",
-          "en_name": "Ricotta Cheese Salad with Oriental Sauce",
-          "price": "15,500",
-          "content_one": "시금치, 슈퍼그레인, 리코타 치즈에",
-          "content_two": "무설탕 오리엔탈 드레싱을 곁들인 샐러드"
+          "img": "/images/nike1.png",
+          "name": "나이키 티엠포 레전드 9 엘리트 AG 프로",
+          "en_name": "인공 잔디 클리트 축구화",
+          "price": "269,000",
+          "content_one": "지금껏 가장 가벼운 티엠포 모델 중 하나인 나이키 티엠포 레전드 9 엘리트 AG 프로는 공격수를 위해 새롭게 개발된 로우 프로파일 디자인으로 선제 공격에 나설 수 있습니다. 부드러운 폼 포드로 표면의 텍스처를 볼록하게 처리한 갑피가 드리블, 패스, 슈팅의 정확도를 높여 주며, 바닥의 스터드는 민첩한 컷 동작과 급정지를 위한 접지력을 제공합니다.",
+          "content_two": ""
         },
         {
           "id": "ATR001",
-          "img": "/images/mushroom.jpg",
-          "name": "머쉬룸 샐러드",
-          "en_name": "Mushroom Salad with Extra Virgin Olive Oil Sauce",
-          "price": "17,000",
-          "content_one": "버섯 자체의 풍미와 감칠맛을 최대한 느낄 수 있도록",
-          "content_two": "엑스트라 버진 올리브 오일에 볶은 샐러드"
+          "img": "/images/nike2.jpg",
+          "name": "나이키 줌 머큐리얼 슈퍼플라이 9 엘리트 FG",
+          "en_name": "천연 잔디 클리트 축구화",
+          "price": "329,000",
+          "content_one": "슈퍼플라이 9 엘리트 FG의 과감한 디자인으로 경기의 판도를 즉시 바꿔 놓습니다. 축구를 위해 특별히 제작된 줌 에어 유닛을 추가했으며, 상단의 그립감 좋은 텍스처는 최고의 터치감을 선사하여 가장 중요한 순간에 경기를 지배할 수 있습니다. 필드 위에서 질주할 때 폭발적인 속도를 느낄 수 있으며, 속도와 페이스와 함께 중요한 플레이를 할 수 있습니다. 에어의 빠른 속도",
+          "content_two": ""
         },
         {
           "id": "ATR002",
-          "img": "/images/chicken.jpg",
-          "name": "치킨 시저 샐러드",
-          "en_name": "Chicken Caeser Salad",
-          "price": "17,500",
-          "content_one": "파마산 치즈와 노른자로 만든 드레싱으로 베이컨과",
-          "content_two": "삶은 달걀, 크루통이 토핑된 치킨 시저 샐러드"
+          "img": "/images/nike3.png",
+          "name": "나이키 줌 머큐리얼 베이퍼 15 엘리트 FG",
+          "en_name": "천연 잔디 클리트 축구화",
+          "price": "289,000",
+          "content_one": "베이퍼 15 엘리트 FG를 신고 달리며 필드를 지배하세요. 축구를 위해 특별히 제작된 줌 에어 유닛을 추가했으며, 상단의 그립감 좋은 텍스처는 최고의 터치감을 선사하여 가장 중요한 순간에 경기를 지배할 수 있습니다. 필드 위에서 질주할 때 폭발적인 속도를 느낄 수 있으며, 속도와 페이스와 함께 중요한 플레이를 할 수 있습니다. 에어의 빠른 속도",
+          "content_two": ""
         },
         {
           "id": "ATR003",
-          "img": "/images/Pumpkin.jpg",
-          "name": "통단호박 크림스프(1인용)",
-          "en_name": "Sweet Pumpkin Cream Soup (for 1)",
-          "price": "9,900",
-          "content_one": "",
-          "content_two": "" 
+          "img": "/images/nike4.png",
+          "name": "나이키 티엠포 레전드 9 엘리트 FG",
+          "en_name": "천연 잔디 클리트 축구화",
+          "price": "269,000",
+          "content_one": "지금껏 가장 가벼운 티엠포 모델 중 하나인 나이키 티엠포 레전드 9 엘리트 FG는 공격수를 위해 새롭게 개발된 로우 프로파일 디자인으로 선제 공격에 나설 수 있게 해 줍니다. 부드러운 폼 포드로 표면의 텍스처를 볼록하게 처리한 갑피가 드리블, 패스, 슈팅의 정확도를 높여 주며, 바닥의 스터드는 민첩한 컷 동작과 급정지를 위한 접지력을 제공합니다.",
+          "content_two": ""
         },
         {
           "id": "ATR004",
-          "img": "/images/Whole_Pumpkin.jpg",
-          "name": "통단호박 크림스프 (2~3인용)",
-          "en_name": "Whole Sweet Pumpkin Soup (for 2~3)",
-          "price": "19,500",
-          "content_one": "15년 연속 판매 1위를 차지한 닥터로빈의 대표메뉴",
+          "img": "/images/nike5.png",
+          "name": "나이키 머큐리얼 슈퍼플라이 8 엘리트 FG",
+          "en_name": "천연 잔디 클리트 축구화",
+          "price": "255,200",
+          "content_one": "나이키 머큐리얼 슈퍼플라이 8 엘리트 FG는 처음부터 끝까지 최고의 속도로 플레이할 수 있도록 특별한 요소로 구성된 새로운 스타일을 선보입니다. 신축성 있는 카라는 지지력을 한층 높이고, 혁신적인 플레이트는 빠른 속도에서 더욱 민첩한 컷 동작이 가능하도록 즉각적 반응성을 제공합니다.",
           "content_two": ""
         }
       ]
     },
     {
-      "foodkind": "pizza",
+      "foodkind": "adidas",
       "foodtitle": [
         {
-          "background": "/images/pizza-menu-page-image.jpg",
-          "title": "Pizza Menu",
-          "content_one": "100% 친환경 현미가루와 오징어 먹물, 슈퍼곡물인 아마씨드와 햄프씨드를 넣어만든",
-          "content_two": "고소한 맛의 얇은 도우 위에 신선한 재료를 듬뿍 토핑하여 더욱 맛있고 건강한 피자를 만듭니다."
+          "background": "/images/Adidas-logo-wooden-background_1920x1200.jpg",
+          "title": "ADIDAS",
+          "content_one": "독일의 스포츠 용품을 대표하는 아디다스(Adidas)",
+          "content_two": "업계를 선도하는 리더들과 파트너십을 맺고 세상에 없던 것들을 함께 창조합니다."
         }
       ],
       "menu": [
         {
           "id": "ATR000",
-          "img": "/images/Margherita.jpg",
-          "name": "마르게리따 피자",
-          "en_name": "Margherita Pizza",
-          "price": "17,500",
-          "content_one": "토마토, 바질, 모짜렐라 치즈가 듬뿍 얹어진 담백한 맛의 피자",
+          "img": "/images/adidas1.png",
+          "name": "프레데터 엣지.1 FG",
+          "en_name": "Football",
+          "price": "309,000",
+          "content_one": "회전과 컨트롤, 힘의 완벽한 균형. 아디다스 프레데터 시리즈의 펌 그라운드 축구화와 함께 틀을 깨는 창조적인 플레이를 펼쳐보세요. 존 스킨 갑피에 전략적으로 배치된 고무 컨트롤 존이 공을 밀착시키고 각기 다른 종류의 볼 접촉을 모두 최적화합니다. 앞발로 무게 중심을 이동시키는 파워 패싯이 킥에 강력한 힘을 실어줍니다. 유연하면서도 지지력이 뛰어난 아디다스 프라임니트 칼라가 흔들림 없는 핏을 선사합니다.",
           "content_two": ""
         },
         {
           "id": "ATR000",
-          "img": "/images/Robbin.jpg",
-          "name": "닥터로빈 피자",
-          "en_name": "Dr.Robbin Pizza",
-          "price": "18,500",
-          "content_one": "다진 소고기, 블랙 올리브, 양파와 피망 등 토핑이 가득한 가장 클래식한 피자",
+          "img": "/images/adidas2.png",
+          "name": "X 스피드포탈.4 H&L TF",
+          "en_name": "Football",
+          "price": "59,000",
+          "content_one": "시간과 공간을 초월하는 차원이 다른 속도감. 스피드의 멀티버스를 여는 아디다스 X 스피드포탈 시리즈의 주니어용 축구화를 만나보세요. 인조 잔디에 최적화된 아웃솔과 함께 더욱 빠른 커팅과 폭발적인 스피드를 펼칠 수 있습니다. 견고한 인조 갑피의 부드러운 구조로 경기의 열기가 고조된 순간에도 완벽하게 볼을 컨트롤할 수 있습니다. 신발끈과 벨크로 스트랩의 조화로 신는 순간 흔들림 없이 발을 잡아줍니다.",
           "content_two": ""
         },
         {
           "id": "ATR000",
-          "img": "/images/Quattro.jpg",
-          "name": "트러플 콰트로 포르마지",
-          "en_name": "Truffle Quattro Formaggi",
-          "price": "19,500",
-          "content_one": "고르곤졸라, 모짜렐라, 체다, 그라나파다노",
-          "content_two": "4가지 치즈와 트러플향의 꿀이 어우러진 피자"
+          "img": "/images/adidas3.png",
+          "name": "프레데터 엣지.1 로우 FG",
+          "en_name": "Football",
+          "price": "309,000",
+          "content_one": "회전과 컨트롤, 힘의 완벽한 균형. 아디다스 프레데터 시리즈의 펌 그라운드 축구화와 함께 틀을 깨는 창조적인 플레이를 펼쳐보세요. 로우컷 존 스킨 갑피에 전략적으로 배치된 고무 컨트롤 존이 각기 다른 종류의 볼 접촉을 모두 최적화합니다. 앞발로 무게 중심을 이동시키는 파워 패싯이 킥에 강력한 힘을 실어줍니다. 유연하면서도 안정적인 아디다스 프라임니트 칼라가 흔들림 없는 핏을 선사합니다.",
+          "content_two": ""
         },
         {
           "id": "ATR000",
-          "img": "/images/Ricotta.jpg",
-          "name": "리코타 치즈 & 구운 가지 피자",
+          "img": "/images/adidas4.jpg",
+          "name": "X 스피드포탈.1 FG",
           "en_name": "Ricotta Cheese & Roasted Eggplant Pizza",
-          "price": "19,500",
-          "content_one": "토마토 소스를 바른 도우 위에 리코타 치즈와",
-          "content_two": "건강한 식재료인 가지를 구워 올린 피자"
+          "price": "309,000",
+          "content_one": "시간과 공간을 초월하는 놀라운 속도감. 스피드의 멀티버스를 여는 아디다스 X 스피드포탈 시리즈의 편안하고 날렵한 축구화를 만나보세요. 펌 그라운드 아웃솔의 유연한 전장 카비텍스 카본 플레이트가 추진력과 가속을 더해줍니다. 발을 감싸는 스피드스킨 갑피의 유연한 아디다스 프라임니트 칼라와 뒤꿈치에 장착된 가벼운 카본 피스의 조화로 폭발적인 스피드와 격렬한 풋워크에도 흔들림 없는 안정감을 제공합니다.",
+          "content_two": ""
         },
         {
           "id": "ATR000",
-          "img": "/images/Ricotta.jpg",
-          "name": "건강한 계란을 품은 시금치에그피자",
-          "en_name": "Fresh Spinach & Egg Pizza",
-          "price": "19,500",
-          "content_one": "친환경 현미가루로 만든 도우에 시금치와",
-          "content_two": "건강한 계란을 반숙으로 익혀만든 부드러운 피자"
+          "img": "/images/adidas5.png",
+          "name": "코파 센스.3 FG",
+          "en_name": "FFootball",
+          "price": "109,000",
+          "content_one": "경기장에 들어선 순간 발끝부터 느껴지는 감각. 펌 그라운드의 지배자를 위한 아디다스 코파 센스와 함께 공과 하나가 되는 최상의 컨트롤을 경험해보세요. 편안하게 발을 감싸는 갑피의 부드러운 가죽 앞발이 볼을 밀착시키고 강화된 터치감을 제공합니다. 신축성 있는 설포를 통해 더욱 간편하게 착용할 수 있습니다. TPU 아웃솔의 몰드 스터드가 마른 천연 잔디 구장에서 차원이 다른 접지력을 전달합니다. 세계 최대의 축구 무대에서 영감을 얻은 새로운 디자인이 강렬한 룩을 선사합니다.",
+          "content_two": ""
         }
       ]
     },
     {
-      "foodkind": "pasta",
+      "foodkind": "puma",
       "foodtitle": [
         {
-          "background": "/images/pasta-menu.jpg",
-          "title": "Pasta Menu",
-          "content_one": "오직 닥터로빈에서만 만나실수 있는",
-          "content_two": "건강하고 특별한 토마토, 크림, 오일파스타를 맛보세요!"
+          "background": "/images/wallpaperbetter.com.jpg",
+          "title": "PUMA",
+          "content_one": "독일에서 만들어진 세계적인 스포츠 브랜드",
+          "content_two": "높은 퀄리티와 다양한 디자이너의 콜라보레이션으로 만은 사랑을 받고있습니다."
         }
       ],
       "menu": [
         {
           "id": "ATR000",
-          "img": "/images/Arrabiata.jpg",
-          "name": "아라비아따",
-          "en_name": "Arrabiata",
-          "price": "17,500",
-          "content_one": "기름기를 충분히 뺀 베이컨과 드라이 레드페퍼를",
-          "content_two": "갈아넣어 매콤한 맛이 이색적인 토마토 파스타"
+          "img": "/images/puma1.png",
+          "name": "울트라 울티메이트 MG",
+          "en_name": "puma",
+          "price": "259,000",
+          "content_one": "울트라는 최고의 가벼움과 빠름을 자랑하는 초경량 축구화 입니다. 가벼움 : 초경량 울트라 위브 소재 사용 빠른 움직임시 서포트 제공하며 신발 겉면에 파워테이프 기술을 통해 최고의 경량성을 제공하고 더빠른 움직임을 가능하게 합니다. 스피드 : 순간적인 가속도를 위해 러닝 스파이크 DNA이가 적용된 듀얼 컴파운드 스피드플레이트 아웃솔을 사용하였습니다. 컨트롤 : 공격 시 결정적인 순간의 최상의 볼 컨트롤을 위한 파워프린트 기술로 제작하였습니다.",
+          "content_two": ""
         },
         {
           "id": "ATR000",
-          "img": "/images/Seafood.jpg",
-          "name": "해산물 토마토 파스타",
-          "en_name": "Seafood Tomato Sauce Pasta",
-          "price": "19,000",
-          "content_one": "홍합, 오징어, 새우 등 해산물의 깊은 맛과",
-          "content_two": "진한 홈메이드 토마토 소스의 맛이 어우러진 파스타"
+          "img": "/images/puma2.png",
+          "name": "퓨쳐 3.4 TT",
+          "en_name": "puma",
+          "price": "109,000",
+          "content_one": "퓨쳐 Z - 어느 때보다 적응력이 뛰어나고 편안한 첨단의 퓨쳐 Z는 자신의 비전과 기술에 맞게 게임을 만드는 플레이어를 위한 진보적이고 폭발적인 축구화입니다.",
+          "content_two": ""
         },
         {
           "id": "ATR000",
-          "img": "/images/Soup.jpg",
-          "name": "해산물 국물 파스타",
-          "en_name": "Seafood Soup Pasta",
-          "price": "19,500",
-          "content_one": "싱싱한 제철 해산물과 토마토소스를",
-          "content_two": "베이스로 하여 매콤하게 끓여낸 국물 파스타"
+          "img": "/images/puma3.png",
+          "name": "퓨쳐 1.4 FG/AG",
+          "en_name": "puma",
+          "price": "279,000",
+          "content_one": "퓨쳐 Z - 어느 때보다 적응력이 뛰어나고 편안한 첨단의 퓨쳐 Z는 자신의 비전과 기술에 맞게 게임을 만드는 플레이어를 위한 진보적이고 폭발적인 축구화입니다. 2세대 FUZIONFIT+ 기술은 발 모양에 맞게 조정되어 끈의 여부와 상관없이 각 핵심 영역에서 지지력과 유연성의 완벽한 균형을 제공하여 최적의 핏과 성능을 보장합니다. 가볍고 뛰어난 반응성의 다이나믹 모션 시스템 아웃솔은 폭발적인 에너지를 직접 전달하여 다방향 이동에 탁월한 접지력을 제공합니다. Advanced Creator Zone은 발 앞부분에 전략적으로 배치되어 높은 스피드에서 탁월한 터치감과 볼 컨트롤을 선사합니다",
+          "content_two": ""
         },
         {
           "id": "ATR000",
-          "img": "/images/Home-made.jpg",
-          "name": "수제 햄버거 스테이크 토마토 파스타",
-          "en_name": "Home-made Burger Tomato Pasta & Fried Egg",
-          "price": "21,000",
-          "content_one": "닥터로빈 대표메뉴인 수제 햄버거 패티위에",
-          "content_two": "건강한 달걀 프라이를 얹은 토마토 소스의 파스타"
+          "img": "/images/puma4.jpg",
+          "name": "ULTRA 1.3 FG/AG 축구화/ULTRA 1.3",
+          "en_name": "FG/AG",
+          "price": "259,000",
+          "content_one": "어떤 상황에서도 잘 어울리는 이 축구화는 단단한 지형이나 인공적인 지형에서 매우 가볍고 빠르고 강력한 성능을 발휘합니다. 시중에 나와있는 제품 중 가장 가벼운 이 축구화는 최첨단 디자인과 구조로 제작되었습니다. ULTRAcut 어퍼는 인상적인 멀티레이어 지지력을 제공하고, MATRYXEVO 카본 원사 기술과 컷아웃 창이 있는 마이크로파이버 SPEEDCAGE는 깃털처럼 가벼워 최고의 스피드를 선사합니다. 초고속 Peba SpeedUnit 아웃솔은 빠른 가속을 위한 러닝 스파이크에서 영감을 받았으며, GripControl Pro 스킨은 독특한 텍스처를 사용하여 볼을 컨트롤할 수 있게 하고 자신감을 불어 넣습니다. 가장 까다로운 경기를 위한 최고의 파트너를 만나보세요.",
+          "content_two": ""
         }
       ]
     },
     {
-      "foodkind": "rice",
+      "foodkind": "mizuno",
       "foodtitle": [
         {
-          "background": "/images/rice-title-image.jpg",
-          "title": "Rice Menu",
-          "content_one": "식이섬유와 비타민, 무기질 등의 영양이 가득한",
-          "content_two": "잡곡(Multigrain)을 넣어 만든 라이스메뉴 입니다."
+          "background": "/images/MIZUNO-PAGE_142514.jpg",
+          "title": "MIZUNO",
+          "content_one": "1906년에 설립된 일본 기업 미즈노(Mizuno)",
+          "content_two": "보다 좋은 스포츠 용품과 스포츠 진흥을 통해 사회에 공헌하는 브랜드입니다."
         }
       ],
       "menu": [
         {
           "id": "ATR000",
-          "img": "/images/Spciy.jpg",
-          "name": "Spciy 타이 라이스",
-          "en_name": "Spicy Thai Rice",
-          "price": "17,500",
-          "content_one": "해산물 볶음밥에 매콤, 바삭하게 볶아낸 건새우와 숙주가",
-          "content_two": "곁들어진 이국적인 맛의 타이식 볶음밥"
+          "img": "/images/m1.jpg",
+          "name": "미즈노 모나르시다 네오 II 셀렉트 AS (P1GD2225-99)",
+          "en_name": "JAPAN",
+          "price": "170,500",
+          "content_one": "뒤틀림을 방지해주는 종족부의 지지대를 뒤꿈치까지 연장하여 최상의 안정감으로 부상방지.",
+          "content_two": "어퍼에 BF KNIT를 적용하여 착화감 향상, 런버드 로고의 소재를 변경하여 더욱 부드러운 착화감 제공. 세밀한 부분까지 피팅이 개선된 새로운 라스트를 적용"
         },
         {
           "id": "ATR000",
-          "img": "/images/Oriental.jpg",
-          "name": "비프 오리엔탈 라이스",
-          "en_name": "Beef Oriental Sauce Rice",
-          "price": "18,500",
-          "content_one": "감칠맛 나는 불고기와 여러가지 채소를 듬뿍 넣어",
-          "content_two": "잡곡밥과 건강하게 볶아낸 닥터로빈의 인기메뉴"
-        },
-        {
-          "id": "ATR000",
-          "img": "/images/Eggplant.jpg",
-          "name": "가지 비프 토마토 리조또",
-          "en_name": "Eggplant, Beef and Tomato Risotto",
-          "price": "18,500",
-          "content_one": "건강식재료 가지와 부드럽고 고소한",
-          "content_two": "리코타 치즈가 올라간 매콤한 토마토 리조또"
-        },
-        {
-          "id": "ATR000",
-          "img": "/images/Cream.jpg",
-          "name": "로제 콩크림 비프 리조또",
-          "en_name": "Bean Cream Rose Sauce Beef Risotto",
-          "price": "19,000",
-          "content_one": "고추장이 가미된 콩크림 소스에 볶은 소고기와 대파",
-          "content_two": "그리고 건강한 무항생제 달걀 노른자로 완성한 리조또"
-        },
-        {
-          "id": "ATR000",
-          "img": "/images/Truffle.jpg",
-          "name": "트러플향이 가득한 버섯 크림 리조또",
-          "en_name": "Truffle Oil Mushroom Cream Sauce Risotto",
-          "price": "19,500",
-          "content_one": "깊고 진한 송로버섯 오일로 풍미를 더한",
-          "content_two": "프리미엄 크림 리조또"
+          "img": "/images/m2.jpg",
+          "name": "MORELIA II JAPAN_P1GA2001",
+          "en_name": "JAPAN",
+          "price": "180,500",
+          "content_one": "프리미엄 워셔블 캥거루 가죽사용.",
+          "content_two": "경량화된 클래식 축구화에 최상의 피팅을 위해 개선된 라스트를 사용하여 업그레이드 돈 모델"
         }
       ]
     },
     {
-      "foodkind": "kids",
+      "foodkind": "umbro",
       "foodtitle": [
         {
-          "background": "/images/kids-menu-header.jpg",
-          "title": "Kids Menu",
-          "content_one": "한창 자라나는 아이들을 위해 닥터로빈은 더욱 깐깐하게 준비합니다.",
-          "content_two": "아이들의 건강을 최우선으로, 몸에 이로운 재료만 넣고, 간을 최소화 하였습니다."
+          "background": "/images/umbrobackground.jpg",
+          "title": "UMBRO",
+          "content_one": "영국의 대표적인 스포츠 의류 브랜드 엄브로(Umbro)",
+          "content_two": "대표적인 스포츠 브랜드로 영국 맨체스터에 본사를 두고 다양한 장비를 만드는 브랜드입니다."
         }
       ],
       "menu": [
         {
           "id": "ATR000",
-          "img": "/images/OrientalKids.jpg",
-          "name": "영양 가득 비프라이스",
-          "en_name": "Beef Oriental Rice for Kids",
+          "img": "/images/um.png",
+          "name": "엑셀레이터 UU2UJA03WS",
+          "en_name": "HG 인조잔디",
+          "price": "198,000",
+          "content_one": "플레이 시 안정감 향상을 목표로 앞발의 적당한 폭과 발 뒤꿈치 주변 입체 형상 설계. 전 족부 상부에는 부드러움과 그립력에 특징이 있는 합성 가죽채용. 나카 족부 상부에는 합성 피혁을 채용. 가로 흔들림을 억제하는 외곽의 종단 스티치가 특징입니다. 족저의 충격 완충을 위해서 새로 인터널 중간창을 채용. 신는 입구 주변의 라이닝에 촉감이 좋은 부드러운 소재를 채용",
+          "content_two": ""
+        },
+        {
+          "id": "ATR000",
+          "img": "/images/um2.jpg",
+          "name": "엑셀레이터 ACCERATOR",
+          "en_name": "AG 엄브로 축구화",
           "price": "9,500",
-          "content_one": "",
-          "content_two": ""
-        },
-        {
-          "id": "ATR000",
-          "img": "/images/BeefKids.jpg",
-          "name": "순수 크림 파스타 (with 비프)",
-          "en_name": "Beef Cream Pasta for Kids",
-          "price": "9,500",
-          "content_one": "",
+          "content_one": "시바사키 다케시 선수와의 프로덕트 라인 U by GAKU 모델은 ACCERATOR PROHG를 기반으로 당도를 그래픽으로 표현하였습니다. 재팬기획 아나토미컬러스트+하프보드 제조법으로 발뒤꿈치를 감싸는 듯한 피팅을 추구하였습니다.",
           "content_two": ""
         }
       ]
     },
     {
-      "foodkind": "special",
+      "foodkind": "underarmour",
       "foodtitle": [
         {
-          "background": "/images/special-menu-header.jpg",
-          "title": "Special Menu",
-          "content_one": "닥터로빈에서만 맛 볼 수 있는 스페셜 메뉴입니다.",
-          "content_two": ""
+          "background": "/images/drawn-advertisement-under-armour-508207-9173700.jpg",
+          "title": "UNDER ARMOUR",
+          "content_one": "미국의 스포츠 용품 회사 언더아머(Under Armour).",
+          "content_two": "더레이어 기능성 의류의 흥행으로 사세를 키운 후 적극적인 방송, 스포츠 스타 마케팅 등으로 신발 분야에서도 급성장에 있습니다."
         }
       ],
       "menu": [
         {
           "id": "ATR000",
-          "img": "/images/KakaoTalk_20221012_095339714.png",
-          "name": "바질 마늘 바게트",
-          "en_name": "Garlic Baguette",
-          "price": "6,300",
-          "content_one": "향긋한 바질페스토와 모짜렐라 치즈, 오븐에 구운 마늘 향이",
-          "content_two": "어우러진 바삭하면서도 촉촉한 홈메이드 바게트"
+          "img": "/images/am1.jpg",
+          "name": "언더아머 3020151 남성용 마그네틱 셀렉트",
+          "en_name": "잔디 필드용",
+          "price": "120,000",
+          "content_one": "갑피는 인조가죽의 내구성과 천연가죽의 편안함을 겸비한 소재로 제작되었습니다.인솔은 통기성이 우수한 Ortholite 인솔을 사용하였습니다. 플레이트 구조는 단단한 표면에서 우수한 성능을 위해 가볍고 탄력적이며 내구성이 있도록 설계되었습니다.발 골격 및 힘줄 기능을 연구한 가이드 스터드 위치는 찌르기를 줄이고 우수한 견인력을 제공합니다.원뿔형 스터드는 민첩성과 방향 전환을 위해 모든 방향으로 빠르게 움직일 수 있습니다.",
+          "content_two": ""
         },
         {
           "id": "ATR000",
-          "img": "/images/Cazuela.jpg",
-          "name": "통새우 까수엘라",
-          "en_name": "Shrimp Cazuela",
-          "price": "16,500",
-          "content_one": "통새우와 마늘, 올리브, 페퍼론치노를 올리브 오일과",
-          "content_two": "함께 자글자글 끓여낸 스페인 대표 요리"
+          "img": "/images/am2.jpg",
+          "name": "블러 스모크 MC 25362600",
+          "en_name": "인조잔디 축구 풋살화",
+          "price": "49,900",
+          "content_one": "스타일, 속도, 연기! Under Armour Blur Smoke MC는 야드를 달리고 경쟁에서 벗어날 수 있도록 도와줍니다. 가볍고 통기성이 좋으며 매우 편안한 이 축구화는 경기장 위아래로 질주하는 데 적합합니다. 텍스타일 갑피와 초박형 TPU 스킨으로 제작된 Blur Smoke MC로 최고 속도를 더 빨리 낼 수 있습니다!",
+          "content_two": ""
         },
         {
           "id": "ATR000",
-          "img": "/images/Steak.jpg",
-          "name": "더블 햄버거 스테이크",
-          "en_name": "Home-made Beef Hamburger Steak",
-          "price": "23,900",
-          "content_one": "다진 소고기, 양파, 치즈 등의 각종 재료를 넣어",
-          "content_two": "만든 홈메이드 패티가 두 장이나 담긴 더블햄버거 스테이크"
+          "img": "/images/am3.jpg",
+          "name": " 마그네코 컨트롤 셀렉트",
+          "en_name": "축구화 풋살화",
+          "price": "144,900",
+          "content_one": "샤프트는 아치에서 대략 로우탑을 측정합니다.UA FormTrue 기술 갑피는 고속에서 안정성을 위해 압력을 가해도 구부러집니다.유연하고 보조적인 소재로 된 내부 레이어가 발 주위에 몰딩되어 모든 발에 진정으로 맞춤화되는 정확하고 장갑 같은 핏 느낌을 줍니다.발목 중앙을 감싸는 부드러운 합성 소재로 지지력을 높여 안정성을 높입니다.몸에 꼭 맞는 토박스는 믿을 수 없을 정도로 부드럽고 타의 추종을 불허하는 터치감을 제공합니다.",
+          "content_two": ""
         }
       ]
     }

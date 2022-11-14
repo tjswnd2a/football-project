@@ -1,14 +1,30 @@
 import "./TopBanner.scss";
 import TopBannerAni from "../../Animation/TopBannerAni";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
-export default function TopBanner({ background, title, content_one, content_two }
-  : { background: string, title: string, content_one: string, content_two: string }) {
+export default function TopBanner({
+  background,
+  title,
+  content_one,
+  content_two,
+}: {
+  background: string;
+  title: string;
+  content_one: string;
+  content_two: string;
+}) {
+  const [bg_cover, setBgCover] = useState<boolean>(false);
   useEffect(() => {
     TopBannerAni();
-  }, [])
+    if (title === "UMBRO" || title === "MIZUNO") {
+      setBgCover(true);
+    }
+  }, []);
+
   return (
     <div className="top-banner">
+      {bg_cover ? <div className="bg-cover"></div> : null}
+
       <div className="bg">
         <img src={background} alt="" />
       </div>

@@ -29,17 +29,11 @@ export default function MainImg() {
           />
 
           <div className="container">
-            <img
-              className="logo"
-              src="/images/dr-robbin-slider-logo.png"
-              alt=""
-            />
-
             <div className="title">
-              <h4>HONEST</h4>
+              <h4>QUALITY</h4>
             </div>
             <div className="content">
-              <p>고객의 건강을 최선으로 몸에 이로운 재료만 사용합니다.</p>
+              <p>100% 정품만 판매하며 보다 좋은 상품으로 만나볼수 있습니다.</p>
             </div>
           </div>
         </SwiperSlide>
@@ -50,18 +44,12 @@ export default function MainImg() {
             alt=""
           />
           <div className="container">
-            <img
-              className="logo"
-              src="/images/dr-robbin-slider-logo.png"
-              alt=""
-            />
-
             <div className="title">
-              <h4>SINCERELY</h4>
+              <h4>TRUST</h4>
             </div>
             <div className="content">
               <p>
-                닥터로빈의 모든 직원은 원재료 섭외부터 조리까지 정성을 다합니다.
+                빠른배송과 정직한 가격으로 만나보실 수 있도록 준비하고 있습니다.
               </p>
             </div>
           </div>
@@ -69,16 +57,11 @@ export default function MainImg() {
         <SwiperSlide>
           <img className="bg" src="/images/soccer-g6900feb73_1920.jpg" alt="" />
           <div className="container">
-            <img
-              className="logo"
-              src="/images/dr-robbin-slider-logo.png"
-              alt=""
-            />
             <div className="title">
-              <h4>MODESTY</h4>
+              <h4>SERVICE</h4>
             </div>
             <div className="content">
-              <p>고객의 의견에 귀기울이며 음식으로 행복을 전달하겠습니다.</p>
+              <p>제품의 문제가 생겼을경우 제조사 AS가 가능합니다.</p>
             </div>
           </div>
         </SwiperSlide>

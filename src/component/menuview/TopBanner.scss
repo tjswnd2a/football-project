@@ -1,6 +1,6 @@
 .top-banner {
   position: relative;
-  padding-top: 80px;
+  padding-top: 70px;
   width: 100%;
   height: 300px;
   color: #fff;
@@ -15,13 +15,19 @@
       object-position: center;
     }
   }
-
+  .bg-cover {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-color: #000;
+    opacity: 0.5;
+  }
   .inner {
     text-align: center;
 
     h4 {
       font-weight: 700;
-      font-family: 'Nanum Myeongjo', serif;
+      font-family: "Nanum Myeongjo", serif;
       padding-top: 50px;
       font-size: 3rem;
       transform: translateX(-20%);
@@ -33,14 +39,12 @@
       height: 2px;
       background-color: #fff;
       margin: 40px auto;
-
     }
 
     p {
       line-height: 1.5rem;
       transform: translateX(20%);
       opacity: 0;
-
     }
   }
 }

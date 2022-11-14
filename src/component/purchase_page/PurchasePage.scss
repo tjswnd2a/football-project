@@ -1,0 +1,117 @@
+.purchase-page {
+  position: relative;
+  padding-top: 70px;
+  .inner {
+    display: flex;
+    .product {
+      position: relative;
+      width: 60%;
+      height: 700px;
+      .product-img {
+        position: relative;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 50px;
+        img {
+          position: absolute;
+          width: 100%;
+          top: 0;
+        }
+        &::before {
+          content: "";
+          padding-bottom: 100%;
+          display: block;
+        }
+      }
+
+      .content {
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+        padding-top: 20px;
+        text-align: center;
+        border-top: 1px solid #ccc;
+        h4 {
+          padding-bottom: 40px;
+          font-size: 18px;
+          font-weight: 700;
+        }
+        p {
+          font-weight: 3\500;
+        }
+      }
+    }
+    .line {
+      width: 1px;
+      background-color: #ccc;
+      height: 80vh;
+      margin-top: 4%;
+    }
+    .purchase-box {
+      position: relative;
+      width: 40%;
+      .shoes-size {
+        width: 85%;
+        margin: 0 auto;
+        ul {
+          display: flex;
+          li {
+            cursor: pointer;
+            width: 100%;
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 5px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            &:hover {
+              border: 1px solid #000;
+            }
+          }
+        }
+      }
+      .item-name,
+      .item-type,
+      .item-price,
+      h3 {
+        padding-left: 10%;
+      }
+      .item-name {
+        font-size: 25px;
+        padding-top: 10%;
+        font-weight: 700;
+      }
+      .item-type {
+        padding-top: 20px;
+        color: #ccc;
+      }
+      .item-price {
+        padding-top: 20px;
+        font-weight: 700;
+      }
+      h3 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-weight: 700;
+      }
+      .button-box {
+        padding-top: 50px;
+        text-align: center;
+        button {
+          cursor: pointer;
+          width: 80%;
+          background-color: #000;
+          color: #fff;
+          padding: 15px;
+          border-radius: 30px;
+          &:hover {
+            background-color: #fff;
+            color: #000;
+          }
+        }
+      }
+    }
+  }
+}

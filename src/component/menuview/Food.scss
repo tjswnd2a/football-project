@@ -9,22 +9,30 @@
     position: relative;
     width: 100%;
     margin-bottom: 50px;
-    img{
+    padding-top: 50px;
+    img {
+      cursor: pointer;
       position: absolute;
       right: 0;
       width: 100%;
       height: 100%;
       object-position: center;
       object-fit: cover;
+      transition: 0.5s;
+
+      &:hover {
+        transform: scale(1.15);
+      }
     }
-    &::after{
+
+    &::after {
       content: "";
-      padding-bottom: 70%;
+      padding-bottom: 100%;
       display: block;
     }
-    
   }
   .name {
+    padding-top: 10%;
     font-size: 1.1rem;
     font-weight: 700;
   }

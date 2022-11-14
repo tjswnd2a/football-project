@@ -1,25 +1,26 @@
-import './CustomerService.scss';
+import "./CustomerService.scss";
 
 export default function CustomerService() {
   return (
-    <div className='customer-service'>
+    <div className="customer-service">
+      <div className="bg-cover"></div>
       <div className="inner">
         <div className="service">
           <div className="title">
-            <h4>
-              BOOK<br />
-              YOUR TABLE
-            </h4>
+            <h4 className="contact">PURCHASE</h4>
           </div>
           <div className="content">
             <p>
-              매장 예약은 전화예약과<br />
-              온라인 예약 모두 가능 합니다.<br />
-              아래 링크를 통해 원하시는 매장에서<br />
-              예약을 진행하실 수 있습니다.
+              축구화 판매방식은
+              <br />
+              매장방문, 온라인으로 이루어져 있습니다.
+              <br />
+              아래 버튼을 클릭시
+              <br />
+              구매를 진행하실 수 있습니다.
             </p>
           </div>
-          <button className="btn-common">예약하기</button>
+          <button className="btn-common">구매하기</button>
         </div>
 
         <div className="service">
@@ -28,9 +29,12 @@ export default function CustomerService() {
           </div>
           <div className="content">
             <p>
-              닥터로빈은 고객님의 소리에<br />
-              귀를 기울입니다.<br />
-              이용하시면서 불편한 점이나<br />
+              SJ.Football은 고객님의 소리에
+              <br />
+              귀를 기울입니다.
+              <br />
+              이용하시면서 불편한 점이나
+              <br />
               개선이 필요한 점이 있다면 알려주세요.
             </p>
           </div>
@@ -38,5 +42,5 @@ export default function CustomerService() {
         </div>
       </div>
     </div>
-  )
+  );
 }
