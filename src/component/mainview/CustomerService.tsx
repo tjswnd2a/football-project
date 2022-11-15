@@ -1,4 +1,5 @@
 import "./CustomerService.scss";
+import { Link } from "react-router-dom";
 
 export default function CustomerService() {
   return (
@@ -13,14 +14,16 @@ export default function CustomerService() {
             <p>
               축구화 판매방식은
               <br />
-              매장방문, 온라인으로 이루어져 있습니다.
+              매장방문, 온라인 판매로 이루어져 있습니다.
               <br />
               아래 버튼을 클릭시
               <br />
-              구매를 진행하실 수 있습니다.
+              상품을 확인하실 수 있습니다.
             </p>
           </div>
-          <button className="btn-common">구매하기</button>
+          <Link to={"/Nike"} state={{ name: "Nike" }}>
+            <button className="btn-common">구매하기</button>
+          </Link>
         </div>
 
         <div className="service">

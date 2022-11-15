@@ -1,0 +1,68 @@
+.about-page {
+  position: relative;
+  padding-top: 70px;
+  .top-banner {
+    position: relative;
+    background-image: url("../../../public/images/lines-gecd272db0_1920.jpg");
+    background-size: cover;
+    height: 250px;
+    .cover {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+      background-color: black;
+      width: 100%;
+      opacity: .5;
+      position: absolute;
+      height: 100%;
+      top: 0;
+      h4{
+        z-index: 9;
+        color: #fff;
+        font-size: 50px;
+        margin: auto;
+      }
+    }
+  }
+  .inner {
+    margin-top: 30px;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    h4{
+      padding-top: 50px;
+      text-align: center;
+      font-size: 50px;
+      font-weight: 700;
+    }
+
+    h3 {
+      padding-top: 50px;
+      text-align: center;
+      font-size: 30px;
+    }
+
+    h2 {
+      padding-top: 50px;
+      padding-right: 30px;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 600;
+    }
+    p {
+      padding-top: 20px;
+      font-size: 20px;
+      text-align: center;
+      line-height: 30px;
+    }
+
+    .github {
+      padding-top: 20px;
+      text-align: center;
+      img{
+        width: 150px;
+        height: 150px;
+      }
+    }
+  }
+}

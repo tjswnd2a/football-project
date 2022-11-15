@@ -41,9 +41,11 @@ export default function Header() {
                   SJ.Football ▾
                 </a>
                 <ul className="sub-menu">
-                  <li className="sub-item">
-                    <a href="javascript:void(0)">About</a>
-                  </li>
+                  <Link to={"/about"} onClick={onClick}>
+                    <li className="sub-item">
+                      <a href="javascript:void(0)">About</a>
+                    </li>
+                  </Link>
                 </ul>
               </li>
               <li className="item2">

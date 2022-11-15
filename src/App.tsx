@@ -8,7 +8,7 @@ import UmbroPage from "./component/UmbroPage";
 import MizunoPage from "./component/MizunoPage";
 import UnderArmourPage from "./component/UnderArmourPage";
 import PurchasePage from "./component/purchase_page/PurchasePage";
-
+import AboutPage from "./component/about/AboutPage";
 import "./App.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
@@ -18,6 +18,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<MainView />}></Route>
+          <Route path="/about" element={<AboutPage />}></Route>
           <Route path="/purchase" element={<PurchasePage />}></Route>
           <Route path="/Nike" element={<NikePage />}></Route>
           <Route path="/Adidas" element={<AdidasPage />}></Route>

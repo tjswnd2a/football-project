@@ -28,6 +28,7 @@ export default function PurchasePage() {
     console.log(event.target.outerText);
     setResult(event.target.outerText)
   };
+
   return (
     <div className="purchase-page">
       <div className="inner">
